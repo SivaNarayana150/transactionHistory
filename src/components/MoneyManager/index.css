@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  padding-left: 5vh;
+  padding-right: 18vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.money-user-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 89vw;
+  height: 24vh;
+  padding-left: 8vh;
+  padding-top: 6vh;
+  margin-left: 3vw;
+  margin-bottom: 5vh;
+}
+.user-heading {
+  color: #475569;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.welcone-description {
+  color: #475569;
+  font-size: medium;
+
+  font-family: Roboto;
+}
+.money-manager-span {
+  color: #0b69ff;
+}
+.transaction-history-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 89vw;
+  margin-left: 40px;
+}
+.form-container {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #475569;
+  border-width: 1px;
+  padding: 5vh;
+  width: 37vw;
+  border-radius: 13px;
+  height: 60vh;
+}
+
+.transaction-heading {
+  color: #475569;
+  font-size: medium;
+  font-weight: bold;
+
+  font-family: Roboto;
+}
+.title-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.title-input-element {
+  height: 5vh;
+  font-size: small;
+  margin-top: 10px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 5px;
+}
+
+.title-label {
+  color: #475569;
+  font-size: smaller;
+
+  font-family: Roboto;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+
+  padding: 5px;
+  border-radius: 5px;
+  width: 55px;
+}
+
+.history-container {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #475569;
+  border-width: 1px;
+  padding: 3vh;
+  width: 50vw;
+  border-radius: 13px;
+  min-height: 60vh;
+}
+
+.history-heading {
+  color: #475569;
+  font-size: large;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.list-headings {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #475569;
+  border-width: 1px;
+  padding: 2vh;
+  width: 40vw;
+
+  border-radius: 6px;
+  display: flex;
+}
+
+.headings {
+  color: #475569;
+  font-size: medium;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-right: 18vh;
+  margin-left: 3vh;
+}

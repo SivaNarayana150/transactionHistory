@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.balance-details-container {
+  height: 22vh;
+
+  display: flex;
+  width: 94vw;
+  padding-right: 10vh;
+
+  justify-content: space-between;
+
+  list-style-type: none;
+}
+.image-size-in-card {
+  height: 9vh;
+  width: 9vh;
+  margin-left: 13vh;
+
+  margin-right: 6vh;
+}
+.your-balance-card {
+  height: 20vh;
+  width: 25vw;
+  background-color: #ecfccb;
+  border-color: #84cc16;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.type-amount-description {
+  font-family: Roboto;
+  font-size: large;
+  color: #334155;
+}
+.your-income-card {
+  height: 20vh;
+  width: 25vw;
+  background-color: #cffafe;
+  border-color: #06b6d4;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.your-expenses-card {
+  height: 20vh;
+  width: 25vw;
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.list-row {
+  display: row;
+}
+
+.delete-image {
+  height: 3vh;
+  width: 3vh;
+}
