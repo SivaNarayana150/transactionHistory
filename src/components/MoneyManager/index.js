@@ -154,7 +154,7 @@ class MoneyManager extends Component {
           <div className="form-container">
             <h1 className="transaction-heading">Add Transaction</h1>
 
-            <forn className="form-element" onSubmit={this.onAddTransaction}>
+            <form className="form-element" onSubmit={this.onAddTransaction}>
               <div className="title-input-container">
                 <label htmlFor="title" className="title-label">
                   TITLE
@@ -214,7 +214,7 @@ class MoneyManager extends Component {
               <button type="submit" className="add-button">
                 Add
               </button>
-            </forn>
+            </form>
           </div>
 
           <div className="history-container">
@@ -224,7 +224,9 @@ class MoneyManager extends Component {
                 <p className="headings">Title</p>
                 <p className="headings">Amount</p>
                 <p className="headings">Type</p>
+              </li>
 
+              <ul>
                 {transactionHistoryList.map(eachItem => (
                   <TransactionItem
                     key={eachItem.id}
@@ -232,7 +234,7 @@ class MoneyManager extends Component {
                     deleteTransaction={this.deleteTransaction}
                   />
                 ))}
-              </li>
+              </ul>
             </ul>
           </div>
         </div>

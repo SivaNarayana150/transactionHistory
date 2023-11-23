@@ -112,6 +112,7 @@
   border-width: 1px;
   padding: 2vh;
   width: 40vw;
+  list-style-type: none;
 
   border-radius: 6px;
   display: flex;

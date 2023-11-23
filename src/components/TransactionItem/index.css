@@ -7,3 +7,30 @@
   height: 3vh;
   width: 3vh;
 }
+
+.list-headings {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #475569;
+  border-width: 1px;
+  padding: 2vh;
+
+  list-style-type: none;
+
+  align-items: center;
+
+  border-radius: 6px;
+  display: flex;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-style: none;
+}
+.headings {
+  color: #475569;
+  font-size: medium;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-right: 10vh;
+}

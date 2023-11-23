@@ -13,7 +13,7 @@ const MoneyDetails = props => {
           className="image-size-in-card"
         />
         <div>
-          <p className="type-amount-description">Your Balanace</p>
+          <p className="type-amount-description">Your Balance</p>
           <p className="type-amount-description" data-testid="balanceAmount">
             Rs {balanceAmount}
           </p>
